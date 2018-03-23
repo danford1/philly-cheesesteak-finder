@@ -1,0 +1,1436 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media3.fl.yelpcdn.com/bphoto/4oqA8mMIWzLreDBLpXPpWA/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Carmen's Famous Italian Hoagies",
+        "zipcode": "19107",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "406",
+        "yelp_rank": "33",
+        "seitan_score": "0",
+        "address1": "12th St & Arch St",
+        "yelp_name_link": "https://www.yelp.com/biz/carmens-famous-italian-hoagies-philadelphia?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.159435,
+          39.953952
+        ],
+        "type": "Point"
+      },
+      "id": "04515ece3149bf5be6fe68e836f9fad2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media3.fl.yelpcdn.com/bphoto/NjCBWc_NaahxVDZzNQa9fg/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Paesano's Philly Style",
+        "zipcode": "19123",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "528",
+        "yelp_rank": "12",
+        "seitan_score": "0",
+        "address1": "148 W Girard Ave",
+        "yelp_name_link": "https://www.yelp.com/biz/paesanos-philly-style-philadelphia-2?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.137951,
+          39.969063
+        ],
+        "type": "Point"
+      },
+      "id": "04a3d779d767a1e58fe18b46bbf84f28"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media1.fl.yelpcdn.com/bphoto/IoL4VkNV5SD1pGhLAtOLpw/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Bala Cynwyd",
+        "name": "Mama's Pizzeria",
+        "zipcode": "19004",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "130",
+        "yelp_rank": "26",
+        "seitan_score": "0",
+        "address1": "426 Belmont Ave",
+        "yelp_name_link": "https://www.yelp.com/biz/mamas-pizzeria-bala-cynwyd?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.228907,
+          40.014935
+        ],
+        "type": "Point"
+      },
+      "id": "0984b13d4903bc396216364b481a7683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": 0,
+        "yelp_img_link": "https://s3-media1.fl.yelpcdn.com/bphoto/YvxMXYbWYkmqpUere30O6g/90s.jpg",
+        "seitan_yelp_rank": 2,
+        "city": "Philadelphia",
+        "name": "Grindcore House",
+        "zipcode": "19147",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "271",
+        "yelp_rank": "",
+        "seitan_score": "1",
+        "address1": "1515 S 4th St",
+        "yelp_name_link": "https://www.yelp.com/biz/grindcore-house-philadelphia?osq=seitan+cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.151957,
+          39.929261
+        ],
+        "type": "Point"
+      },
+      "id": "098768380e5f18ddc848b9555471d21f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media4.fl.yelpcdn.com/bphoto/Chx2nKoKIOwDO509Hb7lCw/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "George's Sandwich Shop",
+        "zipcode": "19147",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "69",
+        "yelp_rank": "39",
+        "seitan_score": "0",
+        "address1": "900 S 9th St",
+        "yelp_name_link": "https://www.yelp.com/biz/georges-sandwich-shop-philadelphia?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.157848,
+          39.938831
+        ],
+        "type": "Point"
+      },
+      "id": "0ac1fc95f2de7c8650ded858db5dacbe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "0",
+        "yelp_img_link": "https://s3-media3.fl.yelpcdn.com/bphoto/zTan3orrKRbD-F6YROb24A/90s.jpg",
+        "seitan_yelp_rank": "9",
+        "city": "Philadelphia",
+        "name": "Magic Carpet",
+        "zipcode": "19176",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "124",
+        "yelp_rank": "",
+        "seitan_score": "1",
+        "address1": "34th & Walnut St",
+        "yelp_name_link": "https://www.yelp.com/biz/magic-carpet-philadelphia?osq=seitan+cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.163789,
+          39.952335
+        ],
+        "type": "Point"
+      },
+      "id": "0f045e1e930dac42f97d6ebb8ee225ae"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "0",
+        "yelp_img_link": "https://s3-media4.fl.yelpcdn.com/bphoto/UwbIXbHgwancbFifo9V4ww/ls.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Campo's Deli",
+        "zipcode": "19106",
+        "visit_philly_rank": "6",
+        "visit_philly_score": "1",
+        "state": "PA",
+        "yelp_review_count": "",
+        "yelp_rank": "",
+        "seitan_score": "0",
+        "address1": "214 Market Street",
+        "yelp_name_link": "https://www.yelp.com/biz/campos-philadelphia-5"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.144317,
+          39.949742
+        ],
+        "type": "Point"
+      },
+      "id": "124cf9fb72e6abd0f623d895a0df2cd5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media4.fl.yelpcdn.com/bphoto/t9oUxay14eUT50JUob8c6g/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Dalessandro's Steaks",
+        "zipcode": "19128",
+        "visit_philly_rank": "8",
+        "visit_philly_score": "1",
+        "state": "PA",
+        "yelp_review_count": "1010",
+        "yelp_rank": "3",
+        "seitan_score": "0",
+        "address1": "600 Wendover St",
+        "yelp_name_link": "https://www.yelp.com/biz/dalessandros-steaks-philadelphia?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.205995,
+          40.029513
+        ],
+        "type": "Point"
+      },
+      "id": "16f4115b46b5100661d091dea2c5a857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "0",
+        "yelp_img_link": "https://s3-media1.fl.yelpcdn.com/bphoto/MdxZ_Ro64mvMG-XGHytc_A/90s.jpg",
+        "seitan_yelp_rank": "1",
+        "city": "Philadelphia",
+        "name": "Vedge",
+        "zipcode": "19107",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "1117",
+        "yelp_rank": "",
+        "seitan_score": "1",
+        "address1": "1221 Locust St",
+        "yelp_name_link": "https://www.yelp.com/biz/vedge-philadelphia?osq=seitan+cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.161313,
+          39.947977
+        ],
+        "type": "Point"
+      },
+      "id": "1d924fab4bd30e0201f08b5c698d4129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "0",
+        "yelp_img_link": "https://s3-media1.fl.yelpcdn.com/bphoto/n1_PVV9gN5DkL6B2PXfu1w/ls.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Pat's King of Steaks",
+        "zipcode": "19147",
+        "visit_philly_rank": "3",
+        "visit_philly_score": "1",
+        "state": "PA",
+        "yelp_review_count": "",
+        "yelp_rank": "",
+        "seitan_score": "0",
+        "address1": "1237 E. Passyunk Avenue",
+        "yelp_name_link": "https://www.yelp.com/biz/pats-king-of-steaks-philadelphia-2"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.158791,
+          39.933465
+        ],
+        "type": "Point"
+      },
+      "id": "20934236020b42581e811206feefde1e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media4.fl.yelpcdn.com/bphoto/X_z6H4JVxDQgtRvsIQ3eBQ/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Steve's Prince of Steaks",
+        "zipcode": "19116",
+        "visit_philly_rank": "9",
+        "visit_philly_score": "1",
+        "state": "PA",
+        "yelp_review_count": "136",
+        "yelp_rank": "40",
+        "seitan_score": "0",
+        "address1": "2711 Comly Rd",
+        "yelp_name_link": "https://www.yelp.com/biz/steves-prince-of-steaks-philadelphia-4?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.00046,
+          40.104417
+        ],
+        "type": "Point"
+      },
+      "id": "29b4e896edee4b91cbe44c62c7d63b70"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "0",
+        "yelp_img_link": "https://s3-media2.fl.yelpcdn.com/bphoto/JmrXQR9cLZIHAdxVIYMTNw/ls.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Shank's Original",
+        "zipcode": "19147",
+        "visit_philly_rank": "10",
+        "visit_philly_score": "1",
+        "state": "PA",
+        "yelp_review_count": "",
+        "yelp_rank": "",
+        "seitan_score": "0",
+        "address1": "901 S. Christopher Columbus Blvd",
+        "yelp_name_link": "https://www.yelp.com/biz/shanks-original-philadelphia-2"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.142769,
+          39.935047
+        ],
+        "type": "Point"
+      },
+      "id": "34ce4b04af5b208dddaca70994cdfad1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media3.fl.yelpcdn.com/bphoto/I35fO-kzCcT7ZPHiRy4s_A/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Woodlyn",
+        "name": "Michael's Sandwich Shop",
+        "zipcode": "19094",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "71",
+        "yelp_rank": "31",
+        "seitan_score": "0",
+        "address1": "1300 Jefferson Ave",
+        "yelp_name_link": "https://www.yelp.com/biz/michaels-sandwich-shop-woodlyn?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.343758,
+          39.875075
+        ],
+        "type": "Point"
+      },
+      "id": "39c3b5f273c2a68f7bc5ec79f879bf51"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media4.fl.yelpcdn.com/bphoto/o6knFHMRJV_cWevW0C090A/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Max's Steaks",
+        "zipcode": "19140",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "255",
+        "yelp_rank": "8",
+        "seitan_score": "0",
+        "address1": "3653 Germantown Ave",
+        "yelp_name_link": "https://www.yelp.com/biz/maxs-steaks-philadelphia?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.150451,
+          40.008951
+        ],
+        "type": "Point"
+      },
+      "id": "3a8d0fc2625f9932e2f1d8d635cf1b82"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media3.fl.yelpcdn.com/bphoto/a0kItQ_FVQBPFxLmE5ePIw/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Woodrow's Sandwich Shop",
+        "zipcode": "19147",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "73",
+        "yelp_rank": "23",
+        "seitan_score": "0",
+        "address1": "630 South St.",
+        "yelp_name_link": "https://www.yelp.com/biz/woodrows-sandwich-shop-philadelphia?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.153197,
+          39.941934
+        ],
+        "type": "Point"
+      },
+      "id": "3f45577989e41065ca38615163ed209f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media4.fl.yelpcdn.com/bphoto/Oivbk-Uh53IceIwAiG2bMg/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Stockyard Sandwich",
+        "zipcode": "19130",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "55",
+        "yelp_rank": "11",
+        "seitan_score": "0",
+        "address1": "1541 Spring Garden St",
+        "yelp_name_link": "https://www.yelp.com/biz/stockyard-sandwich-philadelphia?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.164271,
+          39.963071
+        ],
+        "type": "Point"
+      },
+      "id": "3fe75ffbc4fcdd6ffb752c3388c9d75b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media3.fl.yelpcdn.com/bphoto/fgiSVErQrmDVw-p8qFYajw/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Gooey Looie's",
+        "zipcode": "19148",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "157",
+        "yelp_rank": "7",
+        "seitan_score": "0",
+        "address1": "231 McClellan St",
+        "yelp_name_link": "https://www.yelp.com/biz/gooey-looies-philadelphia?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.150738,
+          39.925339
+        ],
+        "type": "Point"
+      },
+      "id": "412ae9537f0b746029f9d0affb1ac7be"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media3.fl.yelpcdn.com/bphoto/GnV8qnmSuAXuZMpZWgnoLA/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Tony Luke's",
+        "zipcode": "19148",
+        "visit_philly_rank": "2",
+        "visit_philly_score": "1",
+        "state": "PA",
+        "yelp_review_count": "1309",
+        "yelp_rank": "19",
+        "seitan_score": "0",
+        "address1": "39 E Oregon Ave",
+        "yelp_name_link": "https://www.yelp.com/biz/tony-lukes-philadelphia-9?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.148649,
+          39.91412
+        ],
+        "type": "Point"
+      },
+      "id": "41e1e50a8ea0c4cadbf007d480ea1afd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media4.fl.yelpcdn.com/bphoto/LVYEMDbrQbz74pNWkWGl9g/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Wiz Kid",
+        "zipcode": "19103",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "54",
+        "yelp_rank": "27",
+        "seitan_score": "0",
+        "address1": "124 S 19th St",
+        "yelp_name_link": "https://www.yelp.com/biz/wiz-kid-philadelphia?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.171159,
+          39.956211
+        ],
+        "type": "Point"
+      },
+      "id": "429f1bf2ac69a95bbdbd588366cadb7b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media2.fl.yelpcdn.com/bphoto/UD9BjffD1UOUjqmiIrh24g/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Camden",
+        "name": "Donkey's Place",
+        "zipcode": "8103",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "NJ",
+        "yelp_review_count": "106",
+        "yelp_rank": "15",
+        "seitan_score": "0",
+        "address1": "1223 Haddon Ave",
+        "yelp_name_link": "https://www.yelp.com/biz/donkeys-place-camden?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.102245,
+          39.931623
+        ],
+        "type": "Point"
+      },
+      "id": "4cbc1dba0b3a84ed2ad23f8a7b8d4b7d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media1.fl.yelpcdn.com/bphoto/QIQYgojI4SLpZynZmYD3SA/90s.jpg",
+        "seitan_yelp_rank": "3",
+        "city": "Philadelphia",
+        "name": "Cleavers",
+        "zipcode": "19103",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "285",
+        "yelp_rank": "6",
+        "seitan_score": "1",
+        "address1": "108 S 18th St",
+        "yelp_name_link": "https://www.yelp.com/biz/cleavers-philadelphia?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.17062,
+          39.951392
+        ],
+        "type": "Point"
+      },
+      "id": "4e7094b747686c017dbbded0270f40fe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media3.fl.yelpcdn.com/bphoto/MPxYZANl6mKu50m894D3UQ/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Joe's Steaks + Soda Shop",
+        "zipcode": "19125",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "197",
+        "yelp_rank": "38",
+        "seitan_score": "0",
+        "address1": "1 W Girard Ave",
+        "yelp_name_link": "https://www.yelp.com/biz/joes-steaks-soda-shop-philadelphia-4?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.134572,
+          39.969019
+        ],
+        "type": "Point"
+      },
+      "id": "58a86e67df9243df66f4260744b86185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media3.fl.yelpcdn.com/bphoto/YByPGjcJ3UgJRJyk2kJL3Q/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "SPOT Gourmet Burgers",
+        "zipcode": "19130",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "110",
+        "yelp_rank": "13",
+        "seitan_score": "0",
+        "address1": "2821 W Girard Ave",
+        "yelp_name_link": "https://www.yelp.com/biz/spot-gourmet-burgers-philadelphia?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.182571,
+          39.97471
+        ],
+        "type": "Point"
+      },
+      "id": "60b593e91aa599684416fc710f800fd2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media2.fl.yelpcdn.com/bphoto/HelwWXZ_myjTv5I94gZSWA/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Chubby's",
+        "zipcode": "19128",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "264",
+        "yelp_rank": "36",
+        "seitan_score": "0",
+        "address1": "5826 Henry Ave",
+        "yelp_name_link": "https://www.yelp.com/biz/chubbys-philadelphia?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.206315,
+          40.02906
+        ],
+        "type": "Point"
+      },
+      "id": "6315233163533bb5ea55d03779d534b5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "0",
+        "yelp_img_link": "https://s3-media3.fl.yelpcdn.com/bphoto/fri06wmRTIIdlE0mszLsZg/90s.jpg",
+        "seitan_yelp_rank": "6",
+        "city": "Philadelphia",
+        "name": "Sabrina's Cafe",
+        "zipcode": "19147",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "996",
+        "yelp_rank": "",
+        "seitan_score": "1",
+        "address1": "910 Christian St",
+        "yelp_name_link": "https://www.yelp.com/biz/sabrinas-cafe-philadelphia-26?osq=seitan+cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.158236,
+          39.938828
+        ],
+        "type": "Point"
+      },
+      "id": "70f746f45d5738c1660e2367dc299367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "0",
+        "yelp_img_link": "https://s3-media3.fl.yelpcdn.com/bphoto/VpWKpItoDhkiDt6zfTd3vg/90s.jpg",
+        "seitan_yelp_rank": "5",
+        "city": "Philadelphia",
+        "name": "Soy Cafe",
+        "zipcode": "19123",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "239",
+        "yelp_rank": "",
+        "seitan_score": "1",
+        "address1": "630 N 2nd St",
+        "yelp_name_link": "https://www.yelp.com/biz/soy-cafe-philadelphia-3?osq=seitan+cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.141482,
+          39.961267
+        ],
+        "type": "Point"
+      },
+      "id": "71822b232934730c7b5bea5f0a73dc7d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media4.fl.yelpcdn.com/bphoto/BBnjYEIK0WkGsviSKR0Riw/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Cosmi's Deli",
+        "zipcode": "19147",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "251",
+        "yelp_rank": "9",
+        "seitan_score": "0",
+        "address1": "1501 S 8th St",
+        "yelp_name_link": "https://www.yelp.com/biz/cosmis-deli-philadelphia?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.158121,
+          39.930544
+        ],
+        "type": "Point"
+      },
+      "id": "75cb68779288f9fd3a9be36e0a36a4b4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media2.fl.yelpcdn.com/bphoto/9I4nPPsT_LrrCJ70RHiZiQ/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Sonny's Famous Steaks",
+        "zipcode": "19106",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "806",
+        "yelp_rank": "18",
+        "seitan_score": "0",
+        "address1": "228 Market St",
+        "yelp_name_link": "https://www.yelp.com/biz/sonnys-famous-steaks-philadelphia?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.144808,
+          39.949803
+        ],
+        "type": "Point"
+      },
+      "id": "7d06e2619c4c7e4a24922fdbf6e01582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media4.fl.yelpcdn.com/bphoto/u10hX2niXYJcIq_mh-JISA/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Chase's Hop Shop",
+        "zipcode": "19111",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "56",
+        "yelp_rank": "22",
+        "seitan_score": "0",
+        "address1": "7235 Rising Sun Ave",
+        "yelp_name_link": "https://www.yelp.com/biz/chases-hop-shop-philadelphia-2?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.084986,
+          40.060207
+        ],
+        "type": "Point"
+      },
+      "id": "8447b07ed2d7f90f7ee6585257a14cfa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media4.fl.yelpcdn.com/bphoto/l6_fiP8WhuGlMRNB0xx_kg/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Tommy DiNic's",
+        "zipcode": "19147",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "1588",
+        "yelp_rank": "14",
+        "seitan_score": "0",
+        "address1": "1136 Arch St",
+        "yelp_name_link": "https://www.yelp.com/biz/tommy-dinics-philadelphia?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.158573,
+          39.953692
+        ],
+        "type": "Point"
+      },
+      "id": "8746dffe5351246774bbb2b503086a06"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media3.fl.yelpcdn.com/bphoto/yEU1BIWiC8c6QlJncp4EMQ/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Steve's Prince of Steaks",
+        "zipcode": "19149",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "315",
+        "yelp_rank": "16",
+        "seitan_score": "0",
+        "address1": "7200 Bustleton Ave",
+        "yelp_name_link": "https://www.yelp.com/biz/steves-prince-of-steaks-philadelphia?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.060922,
+          40.045655
+        ],
+        "type": "Point"
+      },
+      "id": "8b4835b5f115d9626e3dbe52cd2d8914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media2.fl.yelpcdn.com/bphoto/bLK8SHduFBbfQOqJmLAnZw/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Ardmore",
+        "name": "Umie's Steaks",
+        "zipcode": "19003",
+        "visit_philly_rank": "",
+        "visit_philly_score": 0,
+        "state": "PA",
+        "yelp_review_count": 271,
+        "yelp_rank": "30",
+        "seitan_score": 0,
+        "address1": "107 East County Line Rd",
+        "yelp_name_link": "https://www.yelp.com/biz/umies-steaks-ardmore?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.2942,
+          39.998014
+        ],
+        "type": "Point"
+      },
+      "id": "9219bd570a8ac1af6577ed49027ba37c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media2.fl.yelpcdn.com/bphoto/5n2QQGsyGm7K0Jk2ppTrUw/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Barry's Steaks",
+        "zipcode": "19128",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "59",
+        "yelp_rank": "10",
+        "seitan_score": "0",
+        "address1": "471 Leverington Ave",
+        "yelp_name_link": "https://www.yelp.com/biz/barrys-steaks-philadelphia?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.218488,
+          40.035005
+        ],
+        "type": "Point"
+      },
+      "id": "9b1c91916c859b73dcb280a50faff505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "0",
+        "yelp_img_link": "https://s3-media3.fl.yelpcdn.com/bphoto/EE3LNBWOLITnVNjJxda33A/90s.jpg",
+        "seitan_yelp_rank": "8",
+        "city": "Philadelphia",
+        "name": "Sabrina's Cafe",
+        "zipcode": "19130",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "1143",
+        "yelp_rank": "",
+        "seitan_score": "1",
+        "address1": "1804 Callowhill St",
+        "yelp_name_link": "https://www.yelp.com/biz/sabrinas-cafe-philadelphia-29?osq=seitan+cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.168727,
+          39.960234
+        ],
+        "type": "Point"
+      },
+      "id": "9cd48bf1c0b5d2481599266b1ea5ced7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media3.fl.yelpcdn.com/bphoto/RNFVN4FDRGTMapGtwKStHg/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Mt. Airy Deli",
+        "zipcode": "19119",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "77",
+        "yelp_rank": "25",
+        "seitan_score": "0",
+        "address1": "7200 Devon St",
+        "yelp_name_link": "https://www.yelp.com/biz/mt-airy-deli-philadelphia-2?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.188097,
+          40.063238
+        ],
+        "type": "Point"
+      },
+      "id": "a02a931b4e5fe99d14700abcd7bca640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media1.fl.yelpcdn.com/bphoto/XLsDbPG93n-ICpw07v-dag/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Jimmy G's Steaks",
+        "zipcode": "19123",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "172",
+        "yelp_rank": "37",
+        "seitan_score": "0",
+        "address1": "695 N Broad St",
+        "yelp_name_link": "https://www.yelp.com/biz/jimmy-gs-steaks-philadelphia?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.160361,
+          39.966592
+        ],
+        "type": "Point"
+      },
+      "id": "a57a410e8e054e95dbfbf78bdea22bbe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media2.fl.yelpcdn.com/bphoto/WvOWsGuJYNP_wBXxKAsJvw/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Joe's Steaks + Soda Shop",
+        "zipcode": "19135",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "234",
+        "yelp_rank": "4",
+        "seitan_score": "0",
+        "address1": "6030 Torresdale Ave",
+        "yelp_name_link": "https://www.yelp.com/biz/joes-steaks-soda-shop-philadelphia-3?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.058169,
+          40.018547
+        ],
+        "type": "Point"
+      },
+      "id": "a6745dbc563d25bfe6347e8bd6b22fe8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media1.fl.yelpcdn.com/bphoto/NpMAFGQ8GYMPjWUzAVI8zw/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Ishkabibble's",
+        "zipcode": "19147",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "469",
+        "yelp_rank": "20",
+        "seitan_score": "0",
+        "address1": "337 S St",
+        "yelp_name_link": "https://www.yelp.com/biz/ishkabibbles-philadelphia?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.331752,
+          40.086631
+        ],
+        "type": "Point"
+      },
+      "id": "aa895133781d4dfa814af1ebf2fcafcd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media1.fl.yelpcdn.com/bphoto/BwwW2pmuVPZxoizlU45DHA/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "McNally's Tavern",
+        "zipcode": "19118",
+        "visit_philly_rank": "7",
+        "visit_philly_score": "1",
+        "state": "PA",
+        "yelp_review_count": "174",
+        "yelp_rank": "24",
+        "seitan_score": "0",
+        "address1": "8634 Germantown Ave",
+        "yelp_name_link": "https://www.yelp.com/biz/mcnallys-tavern-philadelphia-3?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.208861,
+          40.077076
+        ],
+        "type": "Point"
+      },
+      "id": "ab347e9a04f5dca4c4f7fa2526ee5534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media1.fl.yelpcdn.com/bphoto/F28ZiQ-UVwooTPCRxnMJlQ/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Sorrentino's Grocery",
+        "zipcode": "19127",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "53",
+        "yelp_rank": "28",
+        "seitan_score": "0",
+        "address1": "4361 Cresson St",
+        "yelp_name_link": "https://www.yelp.com/biz/sorrentinos-grocery-philadelphia?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.223779,
+          40.026502
+        ],
+        "type": "Point"
+      },
+      "id": "abfc03fdeb3781d1983e736b7bf72d4e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media4.fl.yelpcdn.com/bphoto/EpWtxVlzavsgEK4zd0T8cQ/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "John's Roast Pork",
+        "zipcode": "19148",
+        "visit_philly_rank": "1",
+        "visit_philly_score": "1",
+        "state": "PA",
+        "yelp_review_count": "831",
+        "yelp_rank": "2",
+        "seitan_score": "0",
+        "address1": "14 Snyder Ave",
+        "yelp_name_link": "https://www.yelp.com/biz/johns-roast-pork-philadelphia?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.144996,
+          39.920966
+        ],
+        "type": "Point"
+      },
+      "id": "c452fcf67195e364b7c7a1500eeceb89"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "0",
+        "yelp_img_link": "https://s3-media1.fl.yelpcdn.com/bphoto/LZhwWXyvQ2PfNlJlJ5vowQ/90s.jpg",
+        "seitan_yelp_rank": "10",
+        "city": "Philadelphia",
+        "name": "Monk's Cafe",
+        "zipcode": "19102",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "1941",
+        "yelp_rank": "",
+        "seitan_score": "1",
+        "address1": "264 S 16th St",
+        "yelp_name_link": "https://www.yelp.com/biz/monks-cafe-philadelphia-4?osq=seitan+cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.168275,
+          39.947717
+        ],
+        "type": "Point"
+      },
+      "id": "c6f03ee26f4f1cea31de0edbe3009bd4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media3.fl.yelpcdn.com/bphoto/vHAuodvKeIph3jJzsjwFTQ/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Cherry Hill",
+        "name": "Chick's Deli",
+        "zipcode": "8002",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "NJ",
+        "yelp_review_count": "184",
+        "yelp_rank": "1",
+        "seitan_score": "0",
+        "address1": "906 Township Ln",
+        "yelp_name_link": "https://www.yelp.com/biz/chicks-deli-cherry-hill?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.02081,
+          39.916518
+        ],
+        "type": "Point"
+      },
+      "id": "c852e9b409b2d0ac4f591f21e860830f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media4.fl.yelpcdn.com/bphoto/XAlrvj_G0XHlaJkZCMM-kQ/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Folcroft",
+        "name": "Leo's Steak Shop",
+        "zipcode": "19032",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "149",
+        "yelp_rank": "5",
+        "seitan_score": "0",
+        "address1": "1403 Chester Pike",
+        "yelp_name_link": "https://www.yelp.com/biz/leos-steak-shop-folcroft?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.280258,
+          39.904889
+        ],
+        "type": "Point"
+      },
+      "id": "c891fa086039c9f3f8f6be3d86d90a09"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media1.fl.yelpcdn.com/bphoto/iXpCbV2BjPmfPzqtMvGVSA/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Philip's Steaks",
+        "zipcode": "19145",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "220",
+        "yelp_rank": "35",
+        "seitan_score": "0",
+        "address1": "2234 W Passyunk Ave",
+        "yelp_name_link": "https://www.yelp.com/biz/philips-steaks-philadelphia?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.184579,
+          39.92289
+        ],
+        "type": "Point"
+      },
+      "id": "cd496b5bb5e03fab5cffe3f91131e655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media3.fl.yelpcdn.com/bphoto/tc0o8BwiiVoATMpSsUs5Hw/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "By George! Pizza Pasta & Cheesesteaks",
+        "zipcode": "19107",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "163",
+        "yelp_rank": "32",
+        "seitan_score": "0",
+        "address1": "51 N 12th St",
+        "yelp_name_link": "https://www.yelp.com/biz/by-george-pizza-pasta-and-cheesesteaks-philadelphia-2?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.159484,
+          39.953087
+        ],
+        "type": "Point"
+      },
+      "id": "d34da2df5a8f4c76e6e528359ed9d052"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "0",
+        "yelp_img_link": "https://s3-media2.fl.yelpcdn.com/bphoto/wD4FDRwyMCjIj6nIgR5BoQ/90s.jpg",
+        "seitan_yelp_rank": "4",
+        "city": "Philadelphia",
+        "name": "HipCityVeg",
+        "zipcode": "19103",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "907",
+        "yelp_rank": "",
+        "seitan_score": "1",
+        "address1": "127 S 18th St",
+        "yelp_name_link": "https://www.yelp.com/biz/hipcityveg-philadelphia-2?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.170345,
+          39.950761
+        ],
+        "type": "Point"
+      },
+      "id": "d7ab1727aae0614d4b7991a6de27f6bd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media1.fl.yelpcdn.com/bphoto/tuP8SUBEM5eTibFmt7TDKQ/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Jim's Steaks",
+        "zipcode": "19151",
+        "visit_philly_rank": "5",
+        "visit_philly_score": "1",
+        "state": "PA",
+        "yelp_review_count": "303",
+        "yelp_rank": "17",
+        "seitan_score": "0",
+        "address1": "431 N 62nd St",
+        "yelp_name_link": "https://www.yelp.com/biz/jims-steaks-philadelphia-2?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.243054,
+          39.969227
+        ],
+        "type": "Point"
+      },
+      "id": "e7af0e4a765747421dfb19fba156a7e4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "0",
+        "yelp_img_link": "https://s3-media3.fl.yelpcdn.com/bphoto/ObR_8HYF1R4ZDprmFd5BkQ/90s.jpg",
+        "seitan_yelp_rank": "7",
+        "city": "Philadelphia",
+        "name": "Blackbird Pizzeria",
+        "zipcode": "19147",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "728",
+        "yelp_rank": "",
+        "seitan_score": "1",
+        "address1": "507 S 6th St",
+        "yelp_name_link": "https://www.yelp.com/biz/blackbird-pizzeria-philadelphia-2?osq=seitan+cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.152041,
+          39.94257
+        ],
+        "type": "Point"
+      },
+      "id": "f45d80be75c5709938bdd3605fa3dc15"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media4.fl.yelpcdn.com/bphoto/eHfm0lKSyq-9n9EF3rt_BA/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Jim's Steaks",
+        "zipcode": "19147",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "1934",
+        "yelp_rank": "34",
+        "seitan_score": "0",
+        "address1": "400 South St",
+        "yelp_name_link": "https://www.yelp.com/biz/jims-steaks-philadelphia-6?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.149316,
+          39.941497
+        ],
+        "type": "Point"
+      },
+      "id": "f5529958ad6b5e5764fbfddd74f5702b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media2.fl.yelpcdn.com/bphoto/QVI4goWNpcG3c-jYF9RyIw/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Reggae Reggae Vibes",
+        "zipcode": "19123",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "47",
+        "yelp_rank": "21",
+        "seitan_score": "0",
+        "address1": "517 W Girard Ave",
+        "yelp_name_link": "https://www.yelp.com/biz/reggae-reggae-vibes-philadelphia?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.14571,
+          39.970535
+        ],
+        "type": "Point"
+      },
+      "id": "f6b52333bd891aa0869fc3d696acb941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "0",
+        "yelp_img_link": "https://s3-media2.fl.yelpcdn.com/bphoto/mUJo9tO2euPwQxknN_927g/ls.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Geno's Steaks",
+        "zipcode": "19147",
+        "visit_philly_rank": "4",
+        "visit_philly_score": "1",
+        "state": "PA",
+        "yelp_review_count": "",
+        "yelp_rank": "",
+        "seitan_score": "0",
+        "address1": "1219 S. 9th Street",
+        "yelp_name_link": "https://www.yelp.com/biz/genos-steaks-philadelphia"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.158798,
+          39.933826
+        ],
+        "type": "Point"
+      },
+      "id": "fa1b2fb89d9d00b7ef2d1d1aa1d6401a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "yelp_score": "1",
+        "yelp_img_link": "https://s3-media4.fl.yelpcdn.com/bphoto/Anu8b-S5_Yap9VKuKJquTQ/90s.jpg",
+        "seitan_yelp_rank": "",
+        "city": "Philadelphia",
+        "name": "Lee's Deli",
+        "zipcode": "19143",
+        "visit_philly_rank": "",
+        "visit_philly_score": "0",
+        "state": "PA",
+        "yelp_review_count": "79",
+        "yelp_rank": "29",
+        "seitan_score": "0",
+        "address1": "4700 Baltimore Ave",
+        "yelp_name_link": "https://www.yelp.com/biz/lees-deli-philadelphia-2?osq=cheesesteak"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.21714,
+          39.948444
+        ],
+        "type": "Point"
+      },
+      "id": "fe2cc127c216210fd0b8e3c9bdd44903"
+    }
+  ],
+  "type": "FeatureCollection"
+}

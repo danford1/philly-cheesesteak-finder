@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+    <!-- Site info -->
+    <title>Philly Cheesesteak Finder</title>
+    <meta name="description" content="Find the nearest highly-ranked restaurant that serves cheesesteaks.">
+    <meta name="author" content="Dan Ford">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/football.png">
+
+    <!-- Metatags -->
+    <meta property="og:title" content="Philly Cheesesteak Finder" />
+    <meta property="og:url" content="eaglessuperbowlparade.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Find the nearest highly-ranked restaurant that serves cheesesteaks." />
+    <meta property="og:image" content="images/eagles-parade-map.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Philly Cheesesteak Finder" />
+    <meta name="tiwtter:creator" content="@danjford" />
+    <meta name="twitter:description" content="Find the nearest highly-ranked restaurant that serves cheesesteaks." />
+    <meta name="twitter:url" content="eaglessuperbowlparade.com" />
+    <meta property="og:image" content="images/eagles-parade-map.png" />
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- Mapbox GL JS -->
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.css' rel='stylesheet' />
+
+    <!-- Turf.js -->
+    <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v3.0.11/turf.min.js'></script>
+
+    <!-- Mapbox Directions -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v3.1.1/mapbox-gl-directions.js'></script>
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v3.1.1/mapbox-gl-directions.css' type='text/css' />
+
+    <!-- Font Awesome icon library -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+    <!-- jQuery -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <!-- Local JSON files -->
+    <script>
+        $.getJSON('data/2018-all-cheesesteak-restaurants.geojson', function(data){
+            window.cheesesteakRestaurantGeoJSON = data;
+        });
+    </script>
+</head>
+<body>
+    <div class="grid">
+        <!-- Header -->
+        <div class="header">
+            <div>
+                <a href="#" id="desktop-info" class="btn btn-ghost">More Info</a>
+            </div>
+            <div>
+                <a href="#" id="find-nearest-eatery-desktop" class="btn btn-grey">Find Closest Cheesesteak</a>
+            </div>
+            <div>
+                <nav id="layers" class="btn-toggle"></nav>
+            </div>
+        </div>
+        <!-- Header -->
+        <!-- Title -->
+        <div class="title">
+            <h1>Philly Cheesesteak Finder</h1>
+        </div>
+        <!-- Title -->
+        <!-- Map -->
+        <maparea id="map"></maparea>
+        <!-- Map -->
+        <!-- Footer -->
+        <div class="footer">
+            <div>
+                <a href="#" id="find-nearest-eatery-mobile" class="btn btn-grey">Find Closest Cheesesteak</a>
+            </div>
+            <div>
+                <a href="#" id="mobile-info" class="btn btn-ghost">More Info</a>
+            </div>
+        </div>
+        <!-- Footer -->
+        <!-- Legend -->
+        <div id='legend' class='legend' style='display: none;'>
+            <div><span style='background-color: #3bd07d; border: 2px solid #2e3032'></span>Seitan Cheesesteaks</div>
+            <div><span style='background-color: #96a3b2; border: 2px solid #2e3032'></span>Meat Cheesesteaks</div>
+            <div><span style='background-color: #96a3b2; border: 2px solid #e73f3f'></span>Visit Philly Top 10</div>
+        </div>
+        <!-- Legend -->
+    </div>
+
+
+
+    <!-- Modal -->
+    <div id="about-modal" class="modal">
+    <!-- Modal Content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close"><i class="fa fa-times" aria-hidden="true"></i></span>
+                <h3>Find Philly Cheesesteaks!</h3>
+            </div>
+            <div class="modal-body">
+                <h4>About this tool</h4>
+                <p>The Philly Cheesesteak is one of Philly's most popularized cultural and foodie icons.</p>
+                <p>Use this map to find the closest restaurant to your current location that sells either meat or seitan cheesesteaks. Listed restaurants include the highest ranked Yelp restaurants that sell cheesesteaks or seitan cheesesteaks (top 40 and top 10, respectively) and the “Top 10 Spots for Authentic Philly Cheesesteaks” by VisitPhilly. Click the "Find Closest Cheesesteak" button to get started!
+                <p>Read more about the methodology used to curate data and build this tool in the <a href="https://www.azavea.com/" target='_blank'>Azavea blog post</a> and check out the source code in the <a href="https://www.github.com/" target='_blank'>Github repo</a>.<p>
+                <h4>Sources</h4>
+                <p>This tool was built by <a href="https://www.twitter.com/danjford/" target='_blank'>Dan Ford, @danjford</a>.</p>
+                <p>The map was styled with <a href="https://www.mapbox.com/" target='_blank'>Mapbox</a> services and built using <a href="https://www.mapbox.com/mapbox-gl-js/api/" target='_blank'>Mapbox GL JS</a> and <a href="http://turfjs.org/" target='_blank'>Turf</a>.</p>
+                <p>Restaurant data was retrieved from <a href="https://www.yelp.com/" target='_blank'>Yelp</a> and the Visit Philly ranking of <a href="https://www.visitphilly.com/articles/philadelphia/top-10-spots-for-authentic-philly-cheesesteaks/" target='_blank'>“Top 10 Spots for Authentic Philly Cheesesteaks”</a>.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+
+<script>
+
+mapboxgl.accessToken = 'pk.eyJ1IjoiZGFuamZvcmQiLCJhIjoiY2pmMDM4ZjdyMGltMDMzcWo5OHBjcDF2byJ9.Ea9oF5ifW0vp919CgvuIFQ';
+
+const MAP = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/danjford/cjf04pf8n3mzw2rs4ieddx4pa',
+  minZoom: 9,
+  zoom: 12,
+  center: [-75.165367, 39.937921],
+  bearing: 8.80,
+  hash: true,
+});
+
+const DATA_SOURCES = {
+  cheesesteakRest: 'mapbox://danjford.cjf02uakw0eaa2wmou0bxlhmz-88ha6',
+};
+
+const POPUP = new mapboxgl.Popup ({
+    closeButton: true,
+    closeOnClick: true
+});
+
+let eateryButtonActive = false;
+
+const geolocateControl = new mapboxgl.GeolocateControl({
+     positionOptions: {
+         enableHighAccuracy: true,
+     },
+     trackUserLocation: false,
+});
+
+// Find the nearest cheesesteak restaurant and provide walking directions
+function findNearest() {
+    geolocateControl.on('geolocate', ev => {
+        if (eateryButtonActive) {
+            const data = {
+                type: 'Point',
+                coordinates: [
+                    ev.coords.longitude,
+                    ev.coords.latitude
+                ],
+            };
+
+            loclong = data.coordinates[0];
+            loclat = data.coordinates[1];
+
+            const nearest = window.cheesesteakRestaurantGeoJSON.features.map(feature =>
+                [
+                    turf.distance(data, feature),
+                    feature,
+                ]);
+
+                const sortedNearest = nearest.sort((first, second) => {
+                    if (first[0] > second[0]) {
+                        return 1;
+                    } else if (second[0] > first[0]) {
+                        return -1;
+                    }
+
+                    return 0;
+                });
+
+                const nearestEatery = sortedNearest[0];
+                console.log(nearestEatery[1]);
+                eateryButtonActive = false;
+
+                if (nearestEatery[1] !== null) {
+
+                    MAP.getSource('nearest-eatery').setData({
+                        type: 'FeatureCollection',
+                        features: [
+                            nearestEatery[1]
+                        ]
+                    }
+                );
+
+                MAP.addLayer({
+                    id: 'nearest-eatery',
+                    type: 'circle',
+                    source: 'nearest-eatery',
+                    paint: {
+                        'circle-radius': 16,
+                        'circle-color': '#fbff00',
+                        'circle-opacity': 0.6
+                    }
+                }, 'cheesesteak-restaurants');
+            }
+
+            const sortedLons = [loclong, nearestEatery[1].geometry.coordinates[0]].sort((a, b) => {
+                if (a > b) {
+                    return 1;
+                } else if (a.distance < b.distance) {
+                    return -1;
+                }
+                return 0;
+            });
+
+            const sortedLats = [loclat, nearestEatery[1].geometry.coordinates[1]].sort((a, b) => {
+                if (a > b) {
+                    return 1;
+                } else if (a.distance < b.distance) {
+                    return -1;
+                }
+                return 0;
+            });
+
+            let start = [sortedLons[0], sortedLats[0]];
+            let end = [sortedLons[1], sortedLats[1]];
+            let directionsRequest = 'https://api.mapbox.com/directions/v5/mapbox/walking/' + start[0] + ',' + start[1] + ';' + end[0] + ',' + end[1] + '?geometries=geojson&access_token=' + mapboxgl.accessToken;
+            $.ajax({
+                method: 'GET',
+                url: directionsRequest,
+            }).done(function(d) {
+                let route = d.routes[0].geometry;
+                MAP.addLayer({
+                    id: 'route',
+                    type: 'line',
+                    source: {
+                        type: 'geojson',
+                        data: {
+                            type: 'Feature',
+                            geometry: route
+                        }
+                    },
+                    paint: {
+                        'line-color': '#3bb2d0',
+                        'line-width': 3
+                    }
+                }, 'road-oneway-arrows-minor');
+            });
+
+            MAP.fitBounds([
+                [sortedLons[0], sortedLats[0]],
+                [sortedLons[1], sortedLats[1]],
+            ], {
+                padding: 100,
+            });
+        }
+    })
+};
+
+var onEateryClick = function(e) {
+    eateryButtonActive = true;
+    geolocateControl._onClickGeolocate(e);
+    findNearest(e);
+};
+
+document.getElementById("find-nearest-eatery-desktop").onclick = onEateryClick;
+document.getElementById("find-nearest-eatery-mobile").onclick = onEateryClick;
+
+// Set legend display properties
+document.getElementById('legend').style.display = 'block';
+
+MAP.addControl(geolocateControl);
+
+MAP.addControl(new mapboxgl.NavigationControl());
+
+MAP.on('load', function () {
+    MAP.addSource('cheesesteak-restaurants', {
+        type: 'vector',
+        url: DATA_SOURCES.cheesesteakRest
+    });
+    MAP.addLayer({
+        'id': 'cheesesteak-restaurants',
+        'source': 'cheesesteak-restaurants',
+        'source-layer': 'all-cheesesteak-restaurants',
+        'type': 'circle',
+        'layout': {
+            'visibility': 'visible'
+        },
+        'paint': {
+            'circle-stroke-color' : {
+                property: 'visit_philly_score',
+                type: 'categorical',
+                stops: [
+                    ['0', '#2e3032'],
+                    ['1', '#e73f3f'],
+                ]},
+            'circle-stroke-width': 2,
+            'circle-radius': {
+                'base': 1.75,
+                'stops': [[12, 5], [22, 60]]
+            },
+            'circle-color': {
+                property: 'seitan_score',
+                type: 'categorical',
+                stops: [
+                    ['0', '#96a3b2'],
+                    ['1', '#3bd07d'],
+                ]},
+           }
+    });
+
+    MAP.addSource('nearest-eatery', {
+        type: 'geojson',
+        data: {
+            type: 'FeatureCollection',
+            features: [
+            ]
+        }
+    });
+
+    // enable POPUP
+    MAP.on('click', 'cheesesteak-restaurants', function(e) {
+        POPUP.remove();
+        let features = MAP.queryRenderedFeatures(e.point, { layers: ['cheesesteak-restaurants'] });
+        if (!features.length) {
+          return;
+        }
+        let feature = features[0];
+        let name = feature.properties.name;
+        let nameURL = feature.properties.yelp_name_link;
+        let imgURL = feature.properties.yelp_img_link;
+        let yelpRank = feature.properties.yelp_rank;
+        let seitanRank = feature.properties.seitan_yelp_rank;
+        let yelpReviews = feature.properties.yelp_review_count;
+        let visitPhillyRank = feature.properties.visit_philly_rank;
+        let streetAddress = feature.properties.address1;
+        let city = feature.properties.city;
+        let state = feature.properties.state;
+
+        POPUP.setLngLat(e.lngLat);
+        POPUP.setHTML(
+            '<div id=\'popup\' class=\'popup\' style=\'z-index: 10;\'><h4>' + name + '</h4>' + streetAddress + '<br>' + city + ", " + state + " " + zipcode + '<br><br><strong>' + "2018 Top 40 Yelp Rank (Cheesesteaks): " + '</strong>' + yelpRank + '</br><strong>' + "2018 Top 10 Yelp Rank (Seitan): " + '</strong>' + seitanRank + '</strong></br><strong>' + "Visit Philly Top 10 Rank: " + '</strong>' + visitPhillyRank + '</br><strong></div>');
+        POPUP.addTo(MAP);
+    });
+
+    MAP.on('mouseenter', 'cheesesteak-restaurants', function(e) {
+        MAP.getCanvas().style.cursor = 'pointer';
+        let features = MAP.queryRenderedFeatures(e.point, { layers: ['cheesesteak-restaurants'] });
+        if (!features.length) {
+          return;
+        }
+        let feature = features[0];
+        let name = feature.properties.name;
+        let nameURL = feature.properties.yelp_name_link;
+        let imgURL = feature.properties.yelp_img_link;
+        let yelpRank = feature.properties.yelp_rank;
+        let seitanRank = feature.properties.seitan_yelp_rank;
+        let yelpReviews = feature.properties.yelp_review_count;
+        let visitPhillyRank = feature.properties.visit_philly_rank;
+        let streetAddress = feature.properties.address1;
+        let city = feature.properties.city;
+        let state = feature.properties.state;
+        let zipcode = feature.properties.zipcode;
+
+        POPUP.setLngLat(e.lngLat);
+        POPUP.setHTML(
+            '<div id=\'popup\' class=\'popup\' style=\'z-index: 10;\'><h4>' + name + '</h4>' + streetAddress + '<br>' + city + ", " + state + " " + zipcode + '<br><br><strong>' + "2018 Top 40 Yelp Rank (Cheesesteaks): " + '</strong>' + yelpRank + '</br><strong>' + "2018 Top 10 Yelp Rank (Seitan): " + '</strong>' + seitanRank + '</strong></br><strong>' + "Visit Philly Top 10 Rank: " + '</strong>' + visitPhillyRank + '</br><strong></div>');
+        POPUP.addTo(MAP);
+    });
+
+    MAP.on('mouseleave', 'cheesesteak-restaurants', function(e) {
+        MAP.getCanvas().style.cursor = '';
+        POPUP.remove();
+    });
+});
+
+</script>
+<script src="js/desktop-info-popup.js"></script>
+<script src="js/mobile-info-popup.js"></script>
+</body>
+</html>
