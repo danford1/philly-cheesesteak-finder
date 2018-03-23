@@ -16,7 +16,7 @@
 
     <!-- Metatags -->
     <meta property="og:title" content="Philly Cheesesteak Finder" />
-    <meta property="og:url" content="eaglessuperbowlparade.com" />
+    <meta property="og:url" content="phillycheesesteakfinder.com/" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="Find the nearest highly-ranked restaurant that serves cheesesteaks." />
     <meta property="og:image" content="images/eagles-parade-map.png" />
@@ -25,7 +25,7 @@
     <meta name="twitter:title" content="Philly Cheesesteak Finder" />
     <meta name="tiwtter:creator" content="@danjford" />
     <meta name="twitter:description" content="Find the nearest highly-ranked restaurant that serves cheesesteaks." />
-    <meta name="twitter:url" content="eaglessuperbowlparade.com" />
+    <meta name="twitter:url" content="phillycheesesteakfinder.com/" />
     <meta property="og:image" content="images/eagles-parade-map.png" />
 
     <!-- Main stylesheet -->
@@ -111,10 +111,10 @@
                 <h4>About this tool</h4>
                 <p>The Philly Cheesesteak is one of Philly's most popularized cultural and foodie icons.</p>
                 <p>Use this map to find the closest restaurant to your current location that sells either meat or seitan cheesesteaks. Listed restaurants include the highest ranked Yelp restaurants that sell cheesesteaks or seitan cheesesteaks (top 40 and top 10, respectively) and the “Top 10 Spots for Authentic Philly Cheesesteaks” by VisitPhilly. Click the "Find Closest Cheesesteak" button to get started!
-                <p>Read more about the methodology used to curate data and build this tool in the <a href="https://www.azavea.com/" target='_blank'>Azavea blog post</a> and check out the source code in the <a href="https://www.github.com/" target='_blank'>Github repo</a>.<p>
+                <p>Read more about the methodology used to curate data and build this tool in the <a href="https://www.azavea.com/blog/2018/03/23/find-the-nearest-cheesesteak-on-national-cheesesteak-day/" target='_blank'>Azavea blog post</a> and check out the source code in the <a href="https://github.com/danford1/philly-cheesesteak-finder" target='_blank'>Github repo</a>.<p>
                 <h4>Sources</h4>
                 <p>This tool was built by <a href="https://www.twitter.com/danjford/" target='_blank'>Dan Ford, @danjford</a>.</p>
-                <p>The map was styled with <a href="https://www.mapbox.com/" target='_blank'>Mapbox</a> services and built using <a href="https://www.mapbox.com/mapbox-gl-js/api/" target='_blank'>Mapbox GL JS</a> and <a href="http://turfjs.org/" target='_blank'>Turf</a>.</p>
+                <p>The map was styled with <a href="https://www.mapbox.com/" target='_blank'>Mapbox</a> services and built using <a href="https://www.mapbox.com/mapbox-gl-js/api/" target='_blank'>Mapbox GL JS</a>, <a href="https://www.mapbox.com/navigation/" target='_blank'>Mapbox Directions</a>, and <a href="http://turfjs.org/" target='_blank'>Turf</a>.</p>
                 <p>Restaurant data was retrieved from <a href="https://www.yelp.com/" target='_blank'>Yelp</a> and the Visit Philly ranking of <a href="https://www.visitphilly.com/articles/philadelphia/top-10-spots-for-authentic-philly-cheesesteaks/" target='_blank'>“Top 10 Spots for Authentic Philly Cheesesteaks”</a>.</p>
             </div>
         </div>
@@ -228,15 +228,15 @@ function findNearest() {
                 return 0;
             });
 
-            let start = [sortedLons[0], sortedLats[0]];
-            let end = [sortedLons[1], sortedLats[1]];
+            let start = [data.coordinates[0], data.coordinates[1]];
+            let end = [nearestEatery[1].geometry.coordinates[0], nearestEatery[1].geometry.coordinates[1]];
             let directionsRequest = 'https://api.mapbox.com/directions/v5/mapbox/walking/' + start[0] + ',' + start[1] + ';' + end[0] + ',' + end[1] + '?geometries=geojson&access_token=' + mapboxgl.accessToken;
             $.ajax({
                 method: 'GET',
                 url: directionsRequest,
             }).done(function(d) {
                 let route = d.routes[0].geometry;
-                MAP.addLayer({
+                let layer = MAP.addLayer({
                     id: 'route',
                     type: 'line',
                     source: {
@@ -251,6 +251,30 @@ function findNearest() {
                         'line-width': 3
                     }
                 }, 'road-oneway-arrows-minor');
+                console.log(layer);
+                MAP.addLayer({
+                    id: 'route-arrows',
+                    type: 'symbol',
+                    source: 'route',
+                    layout: {
+                        'symbol-placement': 'line',
+                        'text-field': '▶',
+                        'text-size': {
+                            base: 1,
+                            stops: [[12, 20], [22, 60]]
+                        },
+                        'symbol-spacing': {
+                            base: 1,
+                            stops: [[12, 40], [22, 180]]
+                        },
+                        'text-keep-upright': false
+                    },
+                    paint: {
+                        'text-color': '#3bb2d0',
+                        'text-halo-color': '#fff',
+                        'text-halo-width': 2
+                    }
+                });
             });
 
             MAP.fitBounds([
