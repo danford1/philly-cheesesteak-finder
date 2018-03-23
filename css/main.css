@@ -9,6 +9,10 @@
 #575f6b
 Colors */
 
+html {
+    height: 100%;
+}
+
 body {
     margin: 0;
     height: 100%;
@@ -126,7 +130,7 @@ a:hover, a:focus {
         "title"
         "maparea"
         "footer";
-    height: 100vh;
+    height: 100%;
     background-color: #fff;
     color: #444;
 }
