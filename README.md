@@ -2,7 +2,7 @@
 
 Find the nearest highly-ranked restaurant that serves cheesesteaks.
 
-Go to [phillycheesesteakfinder.com](http://phillycheesesteakfinder.com/) to try out the app.
+Go to [https://danford1.github.io/philly-cheesesteak-finder/](https://danford1.github.io/philly-cheesesteak-finder/) to try out the app.
 
 ## Server
 
